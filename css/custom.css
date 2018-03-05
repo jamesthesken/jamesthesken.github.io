@@ -78,10 +78,10 @@ ul > li:before {
 }
 
 a {
-  color:#DD626C;
+  color:#1f7a1f;
 }
 a:hover {
-  color:#FDA0A6;
+  color:#85e085;
   text-decoration: none;
 }
 
@@ -141,7 +141,7 @@ a:hover {
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #001a00;
 }
 
 /* Dropdown content (hidden by default) */
