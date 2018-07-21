@@ -20,24 +20,17 @@ The pi out of the box won't be able to communicate with the drone over serial. S
 
 #### Enabling serial access:
 From the terminal:
-'sudo raspi-config' : go to peripheral access and enable serial communication.
+`sudo raspi-config` : go to peripheral access and enable serial communication.
 Then 'sudo nano /boot/cmdline.txt'
-Here we change the following line from: 'dwc_otg.lpm_enable=0 console=ttyAMA0,115200 kgdboc=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait'
-to: 'dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait'
+Here we change the following line from: `dwc_otg.lpm_enable=0 console=ttyAMA0,115200 kgdboc=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait`
+to: `dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait`
 
 This will make the drone available over /dev/tty/AMA0 
-Finally, we set the baud rate to 230400 by adding lines to the end of '/boot/config.txt':
-'sudo nano /boot/config.txt'
+Finally, we set the baud rate to 230400 by adding lines to the end of `/boot/config.txt`:
+`sudo nano /boot/config.txt`
 add these lines at the bottom: 
-'enable_uart=1'
-'init_uart_clock=64000000'
-
-### Enabling DJI API Access:
-Register an app for DJI OSDK on <a href="https://developer.dji.com"><img src="DJI's developer site."></a> Create a new app in order to get the API keys. After doing so, download DJI Assistant 2 on a Windows machine, 
-
-
-
-
+`enable_uart=1`
+`init_uart_clock=64000000`
 
 <figure>
 	<a href="../assets/img/M100.jpg"><img src="../assets/img/M100.jpg"></a>
@@ -55,78 +48,21 @@ We'll be using serial communication between the drone and our pi. Therefore, we'
 
 This should be the easy part, just be sure that the RX & TX pins aren't switched. 
 
-###
+### Installing OSDK:
+In the pi's terminal, download DJI's OSDK Github repo with: 
+* `git clone https://github.com/dji-sdk/Onboard-SDK`
 
-Apply the `half` class like so to display two images side by side that share the same caption.
 
-{% highlight html %}
-<figure class="half">
-    <a href="/images/image-filename-1-large.jpg"><img src="/images/image-filename-1.jpg"></a>
-    <a href="/images/image-filename-2-large.jpg"><img src="/images/image-filename-2.jpg"></a>
-    <figcaption>Caption describing these two images.</figcaption>
-</figure>
-{% endhighlight %}
 
-And you'll get something that looks like this:
 
-<figure class="half">
-	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>
-	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg"></a>
-	<figcaption>Two images.</figcaption>
-</figure>
 
-#### Three Up
 
-Apply the `third` class like so to display three images side by side that share the same caption.
+#### Enabling DJI API Access:
+Register an app for DJI OSDK on <a href="https://developer.dji.com"><b>"DJI's developer site."</b></a> Create a new app in order to get the API keys. After doing so, download DJI Assistant 2 on a Windows machine. Connect the computer to the micro-usb port on the drone. Run the program and navigate to preferences to enable API access. No need for the Windows machine now, unless you want to use the simulation it provides during development.
 
-{% highlight html %}
-<figure class="third">
-	<img src="/images/image-filename-1.jpg">
-	<img src="/images/image-filename-2.jpg">
-	<img src="/images/image-filename-3.jpg">
-	<figcaption>Caption describing these three images.</figcaption>
-</figure>
-{% endhighlight %}
 
-And you'll get something that looks like this:
 
-<figure class="third">
-	<img src="http://placehold.it/600x300.jpg">
-	<img src="http://placehold.it/600x300.jpg">
-	<img src="http://placehold.it/600x300.jpg">
-	<figcaption>Three images.</figcaption>
-</figure>
 
-### Alternative way
 
-Another way to achieve the same result is to include `gallery` Liquid template. In this case you
-don't have to write any HTML tags – just copy a small block of code, adjust the parameters (see below)
-and fill the block with any number of links to images. You can mix relative and external links.
 
-Here is the block you might want to use:
 
-{% highlight liquid %}
-{% raw %}
-{% capture images %}
-	http://vignette2.wikia.nocookie.net/naruto/images/9/97/Hinata.png
-	http://vignette4.wikia.nocookie.net/naruto/images/7/79/Hinata_Part_II.png
-	http://vignette1.wikia.nocookie.net/naruto/images/1/15/J%C5%ABho_S%C5%8Dshiken.png
-{% endcapture %}
-{% include gallery images=images caption="Test images" cols=3 %}
-{% endraw %}
-{% endhighlight %}
-
-Parameters:
-
-- `caption`: Sets the caption under the gallery (see `figcaption` HTML tag above);
-- `cols`: Sets the number of columns of the gallery.
-Available values: [1..3].
-
-It will look something like this:
-
-{% capture images %}
-	http://vignette2.wikia.nocookie.net/naruto/images/9/97/Hinata.png
-	http://vignette4.wikia.nocookie.net/naruto/images/7/79/Hinata_Part_II.png
-	http://vignette1.wikia.nocookie.net/naruto/images/1/15/J%C5%ABho_S%C5%8Dshiken.png
-{% endcapture %}
-{% include gallery images=images caption="Test images" cols=3 %}
