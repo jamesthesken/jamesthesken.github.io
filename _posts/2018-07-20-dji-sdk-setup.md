@@ -40,6 +40,7 @@ add these lines at the bottom:
 <figure>
 	<a href="../assets/img/raspberry.png"><img src="../assets/img/raspberry.png"></a>
 	<figcaption>Raspberry Pi GPIO wiring schematic.</figcaption>
+</figure>
 	
 We'll be using serial communication between the drone and our pi. Therefore, we'll need to use:
 * Pin 08 (TX) --> Drone RX pin
