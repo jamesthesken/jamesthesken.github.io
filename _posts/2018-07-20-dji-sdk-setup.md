@@ -82,13 +82,13 @@ Now we can run a sample app that was written by DJI. Let's use the telemetry exa
 
 The workflow for this example follows this flowchart:
 <figure>
-	<a href="telemetry.jpg"><img src="telemetry.jpg"></a>
+	<a href="../assets/post/telemetry.jpg"><img src="../assets/post/telemetry.jpg"></a>
 	<figcaption>Telemetry sample code workflow. Source: DJI.</figcaption>
 </figure>
 
 Run the code with `./djiosdk-telemetry-sample UserConfig.txt`. If everything is setup properly the output should look like this in your terminal: 
 <figure>
-	<a href="telemetry_output.png"><img src="telemetry_output.png"></a>
+	<a href="../assets/post/telemetry-output.png"><img src="../assets/post/telemetry-output.png"></a>
 	<figcaption>Telemetry sample output. Source: DJI.</figcaption>
 </figure>
 
