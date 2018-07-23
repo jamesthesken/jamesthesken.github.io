@@ -6,7 +6,7 @@ excerpt: "Using Mask R-CNN to help coffee farmers predict harvest yields."
 tags: [machine-learning, agriculture]
 comments: false
 project: true
-feature: "../assets/post/coffee.png"
+feature: "../assets/post/coffee.jpg"
 ---
 
 This was a project that I've been considerably interested in since I worked at Kauai Coffee during summer 2017. The problem seemed alluring; in the sense that (1) no one has quite approached the problem using machine learning and (2) this is a tangible problem that a large business has + one that *I could solve. Damn that sounds pretty opportunistic! :) 
