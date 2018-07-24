@@ -19,7 +19,7 @@ Timing the harvest season for a large coffee orchard is a difficult and speciali
 Train a supervised machine learning model to identify coffee cherries in a given image + determine its stage of ripeness. 
 
 ### Read More! 
-Check out my blog post featured on <a href="https://towardsdatascience.com/using-deep-learning-to-estimate-coffee-harvest-yields-8edb1b94c698"><b>"Towards Data Science!"</b></a>
+Check out my blog post featured on <a href="https://towardsdatascience.com/using-deep-learning-to-estimate-coffee-harvest-yields-8edb1b94c698"><b>Towards Data Science!</b></a>
 
 
 <figure class="half">
