@@ -31,7 +31,7 @@ Here's one in action on Molokai! Live data for this node is <a href="https://gro
 </figure>
 
 
-Radiation shield for temperature, humidity, and barometric pressure spun up in ~1 day with <a href="https://www.stanleylio.com"><b> Stanley.</b></a> : 
+Radiation shield for temperature, humidity, and barometric pressure spun up in ~1 day with <a href="www.stanleylio.com"><b> Stanley.</b></a> : 
 
 <figure>
 	<a href="../assets/post/MESH/radiation.JPG"><img src="../assets/post/MESH/radiation.JPG"></a>
