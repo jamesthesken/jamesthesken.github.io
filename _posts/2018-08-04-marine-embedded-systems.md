@@ -31,16 +31,16 @@ Here's one in action on Molokai! Live data for this node is <a href="https://gro
 </figure>
 
 
-Radiation shield for temperature, humidity, and barometric pressure spun up in ~1 day with <a href="https://stanleylio.com"><b> Stanley.</b></a> : 
+Radiation shield for temperature, humidity, and barometric pressure spun up in ~1 day with <a href="https://www.stanleylio.com"><b> Stanley.</b></a> : 
 
 <figure>
-	<a href="../assets/post/MESH/radiation.jpg"><img src="../assets/post/MESH/radiation.jpg"></a>
+	<a href="../assets/post/MESH/radiation.JPG"><img src="../assets/post/MESH/radiation.JPG"></a>
 	<figcaption>Radiation shield.</figcaption>
 </figure>
 
 **Dedicated stream logging project page soon!
 <figure>
-	<a href="../assets/post/MESH/best.jpg"><img src="../assets/post/MESH/best.jpg"></a>
+	<a href="../assets/post/MESH/best.JPG"><img src="../assets/post/MESH/best.JPG"></a>
 	<figcaption>Stream logger (Stanley Lio built the really nice custom electronics!)</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ Radiation shield for temperature, humidity, and barometric pressure spun up in ~
 Aside from the trad mechanical engineering aspect, I had the chance to do some of the other engineering that I enjoy. Below is an experiment I ran to assess the impact of air column tempurature on our ultrasonic tide sensors. The ultrasonic sensors take internal temperature measurements to compenstate for the speed of sound in different air temperatures. However the sensor is usually in the sun (hot) even though the air temperature might be cool. So, I placed a sensor on the roof to measure this change throughout the course of a day. Also included was a couple of temperature sensors to compare the sensor body temperature vs actual air temperature. Check back soon for a dedicated page :) 
 
 <figure>
-	<a href="../assets/post/MESH/setup.jpg"><img src="../assets/post/MESH/setup.jpg"></a>
+	<a href="../assets/post/MESH/setup.JPG"><img src="../assets/post/MESH/setup.JPG"></a>
 	<figcaption>Air column experimental setup on the roof.</figcaption>
 </figure>
 
