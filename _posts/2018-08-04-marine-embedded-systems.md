@@ -38,7 +38,7 @@ Radiation shield for temperature, humidity, and barometric pressure spun up in ~
 	<figcaption>Radiation shield.</figcaption>
 </figure>
 
-Check out my dedicated page for our <a href="2018-08-04-stream-loggers.md"><b>stream logging project></b></a> in the Alawai Watershed.
+Check out my dedicated page for our <a href="2018-08-04-stream-loggers.md"><b>stream logging project</b></a> in the Alawai Watershed.
 <figure>
 	<a href="../assets/post/MESH/best.JPG"><img src="../assets/post/MESH/best.JPG"></a>
 	<figcaption>Stream logger (Stanley Lio built the really nice custom electronics!)</figcaption>
