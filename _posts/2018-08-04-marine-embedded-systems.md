@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Project OTIS: Oceanographic Technological Innovations & Solutions"
-date: 2018-07-20
+date: 2018-08-05
 excerpt: "Crowd source science with the Marine Embedded Systems Hui (MESH Lab)"
 tags: [oceanography]
 comments: false
@@ -38,7 +38,7 @@ Radiation shield for temperature, humidity, and barometric pressure spun up in ~
 	<figcaption>Radiation shield.</figcaption>
 </figure>
 
-**Dedicated stream logging project page soon!
+Check out my dedicated page for our <a href=2018-08-04-stream-loggers.md><b>stream logging project</b></a> in the Alawai Watershed.
 <figure>
 	<a href="../assets/post/MESH/best.JPG"><img src="../assets/post/MESH/best.JPG"></a>
 	<figcaption>Stream logger (Stanley Lio built the really nice custom electronics!)</figcaption>
