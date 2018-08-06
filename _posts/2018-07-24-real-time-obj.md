@@ -25,7 +25,7 @@ I was relieved to find a <a href="https://www.amazon.com/Adapter-Capture-Monitor
 ### YOLO
 With all the hardware the easy part is cloning a github repo and running the script. OpenCV is able to recognize the USB capture device as a webcam, so really any CV app that you could come up with could use this.
 
-Get the script <a href=https://github.com/markjay4k/YOLO-series/blob/master/part4_video.py><b>here</b></a>. (Disclaimer: I did not write this script)  
+Get the script <a href="https://github.com/markjay4k/YOLO-series/blob/master/part4_video.py"><b>here</b></a>. (Disclaimer: I did not write this script)  
 Go to settings in the DJI Go app and set the output to be shared with the HDMI port.
 
 <figure>
