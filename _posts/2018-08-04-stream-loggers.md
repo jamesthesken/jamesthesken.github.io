@@ -9,11 +9,11 @@ project: true
 feature: "../assets/post/stream-loggers/stream.JPG"
 ---
 
-The lab/project/more info: <a href=https://grogdata.soest.hawaii.edu/project_info/ ><b>Project OTIS @ University of Hawaii at Manoa</b></a>
+Lab info: <a href="https://grogdata.soest.hawaii.edu/project_info/" ><b>Project OTIS @ University of Hawaii at Manoa</b></a> & more info on the <a href="http://manoa.hawaii.edu/ovcr/sii-abstracts/smart-ala-wai/"><b>Strategic Monitoring And Resilience Training in the Ala Wai Watershed Project.</b></a>
 
-PI: Brian Glazer
+PI: <a href="https://www.soest.hawaii.edu/oceanography/glazer/Brian_T._Glazer/Home.html"><b>Brian Glazer</b></a>
 
-The SMART Alawai website will be available soon for full project details. Let this page be a small overview of my perspective on the engineering side.
+The SMART Alawai website will be available soon. Let this page be a small overview of my perspective on the engineering side.
 
 We had a ~4 month timeframe for the development of a deployable data-logger to record pressure, temperature, and light in the Alawai watershed. The sensors were then distrubuted during our workshop for middle school teachers who teach in schools within the watershed. Here's a map for context:
 
@@ -35,7 +35,7 @@ The chassis design was the result of a constant feedback loop between Stanley, B
 
 <figure class="half">
     <a href="../assets/post/stream-loggers/iteration1.png"><img src="../assets/post/stream-loggers/iteration1.png"></a>
-    <a href="../assets/post/stream-loggers/iteration2.png"><img src="../assets/post/stream-loggers/iteration2.png"></a>
+    <a href="../assets/post/stream-loggers/iteration2.JPG"><img src="../assets/post/stream-loggers/iteration2.JPG"></a>
     <figcaption>Early design iterations.</figcaption>
 </figure>
 
