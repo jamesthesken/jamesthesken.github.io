@@ -5,7 +5,6 @@ date: 2018-07-15
 excerpt: "How to expand the capabilities of your drone with a Raspberry Pi."
 tags: [drones, embedded-systems]
 comments: false
-feature: "../assets/post/fielddrone.jpg"
 ---
 
 Let's say you have a drone project which includes collecting data from some sensors not provided by DJI. eg. air quality, temperature, humidity, etc. Of course, it would be easy to strap the sensor package on the drone and record blindly. However, there are times when it is useful to have the ability to: transmit the collected data, timestamp/location-stamp the data, or to send commands to the drone based on a sensor's reading. Onboard SDK allows you to do that, however it can be difficult to setup if you are not familiar with Linux or Raspberry Pi's.
