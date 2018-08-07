@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Painless Walkthrough of DJI's Onboard SDK"
-date: 2018-07-20
+date: 2018-07-15
 excerpt: "How to expand the capabilities of your drone with a Raspberry Pi."
 tags: [drones, embedded-systems]
 comments: false
+feature: "../assets/post/fielddrone.jpg"
 ---
 
 Let's say you have a drone project which includes collecting data from some sensors not provided by DJI. eg. air quality, temperature, humidity, etc. Of course, it would be easy to strap the sensor package on the drone and record blindly. However, there are times when it is useful to have the ability to: transmit the collected data, timestamp/location-stamp the data, or to send commands to the drone based on a sensor's reading. Onboard SDK allows you to do that, however it can be difficult to setup if you are not familiar with Linux or Raspberry Pi's.
@@ -63,7 +64,7 @@ This should be the easy part, just be sure that the RX & TX pins aren't switched
 Edit `UserConfig.txt` by replacing the appropriate values for the app ID and key.
 
 #### Enabling DJI API access:
-Register an app for DJI OSDK on <a href="https://developer.dji.com"><b>"DJI's developer site."</b></a> Create a new app in order to get the API keys. After doing so, download DJI Assistant 2 on a Windows machine. Connect the computer to the micro-usb port on the drone. Run the program and navigate to preferences to enable API access. No need for the Windows machine now, unless you want to use the simulation it provides during development.
+Register an app for DJI OSDK on <a href="https://developer.dji.com"><b>DJI's developer site.</b></a> Create a new app in order to get the API keys. After doing so, download DJI Assistant 2 on a Windows machine. Connect the computer to the micro-usb port on the drone. Run the program and navigate to preferences to enable API access. No need for the Windows machine now, unless you want to use the simulation it provides during development.
 
 
 #### Before running the example:
