@@ -1,6 +1,6 @@
 # Site
 title:              James Thesken
-bio:                'Mechanical engineer focused on machine learning! I post what I do here..'
+bio:                'Mechanical Engineer and Full-Stack Developer | See my portfolio for the ideas I bring to life.'
 description:        "James' World"
 reading_time:       true
 words_per_minute:   200
@@ -42,9 +42,9 @@ email:		    jamesthesken@gmail.com
 #facebook:           username
 github-url:         jamesthesken
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+linkedin:           jamesthesken
 #xing:              username
-instagram:          james.thesken
+#instagram:          james.thesken
 #lastfm:            username
 #tumblr:            username
 medium:            '@jamesthesken'

@@ -6,19 +6,36 @@ date: 2018-07-21
 comments: false
 ---
     
-Welcome! Hope you check out the rest of the site for more information about my projects and some other things I'm interested in. I grew up on Kauai and surfed everyday for the most part. Send me an e-mail, I'd love to talk.
+Welcome! Hope you check out the rest of the site for projects and some other things I'm interested in. I grew up on Kauai and surfed everyday for the most part.
 
-## What I'm usually working on:
-* Machine learning for computer vision.
-* Embedded systems with the <a href="https://grogdata.soest.hawaii.edu/project_info/"><b> Marine Embedded Systems Hui at the University of Hawaii. </b></a>
-* Drones 
+## Some of the topics you'll find on this site:
+* Autonomous robotic gardening systems
+* How I spent 2 summers flying a drone for America's largest coffee farm
+* Rapid prototyping
+* Computer vision and machine learning
 
-## Some hard skills:
+I started mechanical engineering at the University of Hawaii with professional development goals in mind:
+
+1. Be the well-rounded engineer I met during my first internship at the Hawaii Space Flight Laboratory. 
+2. Bridge the gap between mechanical design and software to control it by learning all I could about programming and small electronics.
+3. Work on skills that are irreplaceable for the next technological revolution.
+
+Since I started school in 2014 I've worked on developing skills in:
 * Python
-* HTML & CSS
+* Javascript
+* C++
 * Arduino, Raspberry Pi, etc.
-* Tensorflow
 * Solidworks
 * 3D printing
+* HTML & CSS
+
+Ask anyone that knows me and they'll tell you I am constantly evolving.
+
+Looking for ways to improve myself, while bolstering the relationships with those around me.
+
+Humans are great at adapting.
+
+
+
 
 
