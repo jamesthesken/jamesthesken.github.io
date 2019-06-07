@@ -10,9 +10,10 @@ Welcome! Hope you check out the rest of the site for projects and some other thi
 
 ## Some of the topics you'll find on this site:
 * Autonomous robotic gardening systems
+* Computer vision and machine learning
 * How I spent 2 summers flying a drone for America's largest coffee farm
 * Rapid prototyping
-* Computer vision and machine learning
+
 
 I started mechanical engineering at the University of Hawaii with professional development goals in mind:
 
@@ -28,6 +29,7 @@ Since I started school in 2014 I've worked on developing skills in:
 * Solidworks
 * 3D printing
 * HTML & CSS
+* FPGA development 
 
 Ask anyone that knows me and they'll tell you I am constantly evolving.
 
