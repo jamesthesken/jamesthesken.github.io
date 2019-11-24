@@ -5,6 +5,7 @@ date: 2019-11-23
 excerpt: "An introduction to building an open-sourced hydroponic monitoring solution."
 tags: [hydroponics, embedded-systems]
 comments: false
+feature: "../assets/post/box-farm.jpg"
 ---
 
 ## My Hydroponic Journey
