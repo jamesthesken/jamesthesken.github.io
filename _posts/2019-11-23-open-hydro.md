@@ -4,7 +4,7 @@ title: "Low-Cost Hydroponic Monitoring"
 date: 2019-11-23
 excerpt: "An introduction to building an open-sourced hydroponic monitoring solution."
 tags: [hydroponics, embedded-systems]
-comments: false
+comments: true
 feature: "../assets/post/box-farm.jpg"
 ---
 
@@ -46,7 +46,18 @@ What's a modern hydroponic controller without a web application? Below is a scre
 	<figcaption>Prototype web-app</figcaption>
 </figure>
 
-We can serve any static web-app we want through the NodeMCU but for now, but for now we keep things simple. 
+We can serve any static web-app we want through the NodeMCU but for now, but for now I'll keep things simple. All I had to do was folllow this quick <a href="https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-server-with-arduino-ide/">tutorial</a> and changed it to the Automated Farmer :) . 
+
+Next on my agenda is to:
+1. Buy the real sensors needed:
+	* pH
+	* Electroconductivity
+	* Waterproof temperature sensor
+	* Air humidity and temperature
+2. Integrate Bootstrap CSS to style the web-app.
+3. Share the progress along the way.
+
+Want to keep up with where I end up on this journey? I'd love to hear from you! Email me at jamesthesken@gmail.com
 
 
 
