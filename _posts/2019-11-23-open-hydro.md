@@ -59,6 +59,8 @@ Next on my agenda is to:
 
 Want to keep up with where I end up on this journey? I'd love to hear from you! Email me at jamesthesken@gmail.com
 
+Also check out my dedicated hydroponic site at: https://theautomatedfarmer.com/
+
 
 
 
